@@ -38,6 +38,6 @@ This code will look at all nodes in the binary tree, since there are $n$ node we
 $$ \mathcal{O}(n) $$
 
 ## Space Complexity
-We create so extra space in our solution, hence:
+We create no extra space in our solution, hence:
 
 $$ \mathcal{O}(1) $$
