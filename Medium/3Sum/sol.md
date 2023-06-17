@@ -24,12 +24,8 @@ We can does this as so: create a left pointer $l$ starting at index $i+1$ and a 
 
 ## Time Complexity
 Since for each $n_i$ we look at the subarray $[n_{i+1}, n_{|N|-1}]$ this has a cost of $n^2$ which gives us a time complexity of 
-$$
-\mathcal{O}(n^2)
-$$
+$$\mathcal{O}(n^2)$$
 
 ## Space Complexity
 Our resultant list will contain $n$ tuples of length $3$ hence our space complexity is 
-$$
-\mathcal{O}(n)
-$$
+$$\mathcal{O}(n)$$
